@@ -10,8 +10,6 @@ int main() {
 	srand(time(NULL));
 	for (int i = 0; i < URqt; i++) {
 		array[i] = rand() % 10 - 5;
-	}
-	for (int i = 0; i < URqt; i++) {
 		printf("%d  ", array[i]);
 	}
 	printf("%c", '\n');
