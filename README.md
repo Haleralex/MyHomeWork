@@ -1,2 +1,2 @@
 # MyHomeWork
-Sorted algorithms and structure data
+Algorithms Sorting and structures data
