@@ -1,2 +1,2 @@
 # MyHomeWork
-MINE
+Sorted algorithms and structure data
