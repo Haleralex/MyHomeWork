@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
-
+///Саня, ну нихуя себе
+///ты вынес некоторое дерьмо в отдельные методы
+///збс, ебать!
 void merge(int* array, int p, int q, int r) {
 	int* A = (int*)malloc(sizeof(int)*(q - p + 2));
 	int* B = (int*)malloc(sizeof(int)*(r - q + 1));
