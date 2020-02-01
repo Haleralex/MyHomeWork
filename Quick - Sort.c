@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
-///8========D
-///8========D
-///8========D
-///8========D
-///8========D
-///8========D
-///8========D
-///8========D
-///8========D
 int Partion(int* array, int p, int r) {
 	int q;
 	q = p;
