@@ -4,7 +4,18 @@
 #include <stdlib.h>
 
 #define URqt //right down here ur qt.
-//i think this solution (for novice) not so dusty 
+//i think this solution (for novice) not so dusty
+
+///Хуев те в код пес!
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
 int main() {
 	int array[URqt];
 	srand(time(NULL));

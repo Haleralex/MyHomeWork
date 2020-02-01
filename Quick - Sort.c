@@ -1,7 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
-
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
+///8========D
 int Partion(int* array, int p, int r) {
 	int q;
 	q = p;
@@ -24,11 +32,13 @@ void quicksort(int* array, int p, int r) {
 		int q = Partion(array, p, r);
 		quicksort(array, p, q-1);
 		quicksort(array, q+1, r);
+        ///8========D
 	}
 }
 
 int main() {
 	srand(time(NULL));
+    ///8========D
 	int n;
 	scanf_s("%d", &n);
 	int* array = (int*)malloc(sizeof(int)*n);
@@ -38,7 +48,9 @@ int main() {
 	}
 	quicksort(array, 0, n-1);
 	printf("%c", '\n');
+    ///8========D
 	for (int i = 0; i < n; i++) {
+        ///8========D
 		printf("%d  ", array[i]);
 	}
 	system("pause");
